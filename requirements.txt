@@ -1,0 +1,6 @@
+Flask
+SQLAlchemy
+marshmallow
+python-dateutil
+werkzeug
+psycopg2-binary

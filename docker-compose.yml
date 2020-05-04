@@ -1,0 +1,32 @@
+version: '2.4'
+
+services:
+  postgres:
+    image: postgres:10.7
+    expose:
+      - 5432
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: citizens
+      POSTGRES_USER: me
+      POSTGRES_PASSWORD: hackme
+
+  app:
+    build:
+      context: .
+      target: app
+
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres
+
+    volumes:
+      - .:/mnt
+    working_dir: /mnt/
+
+    links:
+      - postgres
+    environment:
+      DATABASE_URL: postgresql://me:hackme@postgres/citizens

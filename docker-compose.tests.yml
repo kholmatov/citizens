@@ -1,0 +1,30 @@
+version: '2.4'
+
+services:
+  postgres:
+    image: postgres:10.7
+    expose:
+      - 5432
+    environment:
+      POSTGRES_DB: citizens
+      POSTGRES_USER: me
+      POSTGRES_PASSWORD: hackme
+
+  tests:
+    build:
+      context: .
+      target: tests
+
+    depends_on:
+      - postgres
+
+    command: bash -c 'pylama citizens tests && pytest tests'
+
+    volumes:
+      - .:/mnt
+    working_dir: /mnt/
+
+    links:
+      - postgres
+    environment:
+      DATABASE_URL: postgresql://me:hackme@postgres/citizens
