@@ -62,25 +62,29 @@ def test_post_many(client, citizens_data):
             "citizens": [
                 {
                     "citizen_id": 1,
-                    "town": "Амурск",
-                    "street": "ул. Крестьянская",
+                    "town": "Engleman",
+                    "street": "Furness Warren",
                     "building": "32",
                     "apartment": 29,
-                    "name": "Третьяков Богдан Харлампович",
+                    "name": "Tretyakov Bogdan Kharlampovich",
                     "birth_date": "02.05.1949",
                     "gender": "male",
-                    "relatives": []
+                    "relatives": [
+
+                    ]
                 },
                 {
                     "citizen_id": 2,
-                    "town": "Ивдель",
-                    "street": "ул. Войкова",
+                    "town": "Barkcroft",
+                    "street": "Pickering Acre",
                     "building": "95",
                     "apartment": 14,
-                    "name": "Воронцова Нинель Алексеевна",
+                    "name": "Vorontsova Ninel Alekseevna",
                     "birth_date": "16.08.1969",
                     "gender": "female",
-                    "relatives": [7]
+                    "relatives": [
+                        7
+                    ]
                 }
             ]
         }, 400),
@@ -88,22 +92,22 @@ def test_post_many(client, citizens_data):
             "citizens": [
                 {
                     "citizen_id": 1,
-                    "town": "Амурск",
-                    "street": "ул. Крестьянская",
+                    "town": "Engleman",
+                    "street": "Furness Warren",
                     "building": "32",
                     "apartment": 29,
-                    "name": "Третьяков Богдан Харлампович",
+                    "name": "Tretyakov Bogdan Kharlampovich",
                     "birth_date": "02.05.1949",
                     "gender": "male",
                     "relatives": []
                 },
                 {
                     "citizen_id": 2,
-                    "town": "Ивдель",
-                    "street": "ул. Войкова",
+                    "town": "Barkcroft",
+                    "street": "Pickering Acre",
                     "building": "95",
                     "apartment": 14,
-                    "name": "Воронцова Нинель Алексеевна",
+                    "name": "Vorontsova Ninel Alekseevna",
                     "birth_date": "16.08.1969",
                     "gender": "female",
                     "relatives": []
@@ -114,22 +118,22 @@ def test_post_many(client, citizens_data):
             "citizens": [
                 {
                     "citizen_id": 1,
-                    "town": "Амурск",
-                    "street": "ул. Крестьянская",
+                    "town": "Engleman",
+                    "street": "Furness Warren",
                     "building": "32",
                     "apartment": 29,
-                    "name": "Третьяков Богдан Харлампович",
+                    "name": "Tretyakov Bogdan Kharlampovich",
                     "birth_date": "02.05.1949",
                     "gender": "male",
                     "relatives": [2]
                 },
                 {
                     "citizen_id": 2,
-                    "town": "Ивдель",
-                    "street": "ул. Войкова",
+                    "town": "Barkcroft",
+                    "street": "Pickering Acre",
                     "building": "95",
                     "apartment": 14,
-                    "name": "Воронцова Нинель Алексеевна",
+                    "name": "Vorontsova Ninel Alekseevna",
                     "birth_date": "16.08.1969",
                     "gender": "female",
                     "relatives": []
@@ -140,22 +144,22 @@ def test_post_many(client, citizens_data):
             "citizens": [
                 {
                     "citizen_id": 1,
-                    "town": "Амурск",
-                    "street": "ул. Крестьянская",
+                    "town": "Engleman",
+                    "street": "Furness Warren",
                     "building": "32",
                     "apartment": 29,
-                    "name": "Третьяков Богдан Харлампович",
+                    "name": "Tretyakov Bogdan Kharlampovich",
                     "birth_date": "02.05.1949",
                     "gender": "male",
                     "relatives": [2]
                 },
                 {
                     "citizen_id": 2,
-                    "town": "Ивдель",
-                    "street": "ул. Войкова",
+                    "town": "Barkcroft",
+                    "street": "Pickering Acre",
                     "building": "95",
                     "apartment": 14,
-                    "name": "Воронцова Нинель Алексеевна",
+                    "name": "Vorontsova Ninel Alekseevna",
                     "birth_date": "16.08.1969",
                     "gender": "female",
                     "relatives": [1]

@@ -1,251 +1,261 @@
 {
-  "citizens": [
-    {
-      "citizen_id": 1,
-      "town": "Амурск",
-      "street": "ул. Крестьянская",
-      "building": "32",
-      "apartment": 29,
-      "name": "Третьяков Богдан Харлампович",
-      "birth_date": "02.05.1949",
-      "gender": "male",
-      "relatives": []
-    },
-    {
-      "citizen_id": 2,
-      "town": "Ивдель",
-      "street": "ул. Войкова",
-      "building": "95",
-      "apartment": 14,
-      "name": "Воронцова Нинель Алексеевна",
-      "birth_date": "16.08.1969",
-      "gender": "female",
-      "relatives": [
-        7
-      ]
-    },
-    {
-      "citizen_id": 3,
-      "town": "Диксон",
-      "street": "ул. Ленская",
-      "building": "76",
-      "apartment": 55,
-      "name": "Давыдова Ия Семеновна",
-      "birth_date": "29.09.1960",
-      "gender": "female",
-      "relatives": []
-    },
-    {
-      "citizen_id": 4,
-      "town": "Смоленск",
-      "street": "ул. Российская",
-      "building": "4",
-      "apartment": 12,
-      "name": "Калашникова Марина Борисовна",
-      "birth_date": "05.12.1971",
-      "gender": "female",
-      "relatives": [
-        12
-      ]
-    },
-    {
-      "citizen_id": 5,
-      "town": "Рубцовск",
-      "street": "ул. Лунная",
-      "building": "30",
-      "apartment": 65,
-      "name": "Некрасова Наталья Станиславовна",
-      "birth_date": "22.03.1946",
-      "gender": "female",
-      "relatives": [
-        16
-      ]
-    },
-    {
-      "citizen_id": 6,
-      "town": "Ханты-Мансийск",
-      "street": "ул. Социалистическая",
-      "building": "72",
-      "apartment": 26,
-      "name": "Ершова Феврония Тимуровна",
-      "birth_date": "08.06.1981",
-      "gender": "female",
-      "relatives": [
-        10,
-        11,
-        14
-      ]
-    },
-    {
-      "citizen_id": 7,
-      "town": "Белоярский",
-      "street": "ул. Большевистская",
-      "building": "29",
-      "apartment": 58,
-      "name": "Кудрявцев Боян Терентьевич",
-      "birth_date": "18.12.2011",
-      "gender": "male",
-      "relatives": [
-        2
-      ]
-    },
-    {
-      "citizen_id": 8,
-      "town": "Курганинск",
-      "street": "ул. Мусы Джалиля",
-      "building": "1",
-      "apartment": 98,
-      "name": "Соболев Ярослав Евсеевич",
-      "birth_date": "25.12.1950",
-      "gender": "male",
-      "relatives": [
-        10,
-        11,
-        18
-      ]
-    },
-    {
-      "citizen_id": 9,
-      "town": "Ангарск",
-      "street": "ул. Березовая",
-      "building": "90",
-      "apartment": 55,
-      "name": "Харитонова Маргарита Егоровна",
-      "birth_date": "23.04.2002",
-      "gender": "female",
-      "relatives": []
-    },
-    {
-      "citizen_id": 10,
-      "town": "Джубга",
-      "street": "ул. Ударная",
-      "building": "36",
-      "apartment": 20,
-      "name": "Крюков Парфен Елисеевич",
-      "birth_date": "03.12.1974",
-      "gender": "male",
-      "relatives": [
-        6,
-        8
-      ]
-    },
-    {
-      "citizen_id": 11,
-      "town": "Моршанск",
-      "street": "ул. Есенина",
-      "building": "98",
-      "apartment": 44,
-      "name": "Смирнова Нонна Петровна",
-      "birth_date": "27.09.2006",
-      "gender": "female",
-      "relatives": [
-        6,
-        8
-      ]
-    },
-    {
-      "citizen_id": 12,
-      "town": "Анадырь",
-      "street": "ул. Свободы",
-      "building": "12",
-      "apartment": 49,
-      "name": "Бирюкова Лариса Васильевна",
-      "birth_date": "01.07.1989",
-      "gender": "female",
-      "relatives": [
-        4,
-        18,
-        19
-      ]
-    },
-    {
-      "citizen_id": 13,
-      "town": "Грозный",
-      "street": "ул. Макарова",
-      "building": "46",
-      "apartment": 109,
-      "name": "Смирнова Евпраксия Андреевна",
-      "birth_date": "04.01.1988",
-      "gender": "female",
-      "relatives": []
-    },
-    {
-      "citizen_id": 14,
-      "town": "Приозерск",
-      "street": "ул. Родниковая",
-      "building": "78",
-      "apartment": 34,
-      "name": "Гордеев Христофор Андреевич",
-      "birth_date": "01.10.2004",
-      "gender": "male",
-      "relatives": [
-        6,
-        17
-      ]
-    },
-    {
-      "citizen_id": 15,
-      "town": "Нефтегорск (Самар.)",
-      "street": "ул. Прудовая",
-      "building": "94",
-      "apartment": 59,
-      "name": "Носкова Феврония Борисовна",
-      "birth_date": "04.06.2010",
-      "gender": "female",
-      "relatives": []
-    },
-    {
-      "citizen_id": 16,
-      "town": "Дивногорск",
-      "street": "ул. Толстого",
-      "building": "49",
-      "apartment": 11,
-      "name": "Кулакова Василиса Георгиевна",
-      "birth_date": "06.06.1989",
-      "gender": "female",
-      "relatives": [
-        5
-      ]
-    },
-    {
-      "citizen_id": 17,
-      "town": "Одинцово",
-      "street": "ул. Свердлова",
-      "building": "81",
-      "apartment": 80,
-      "name": "Суханов Модест Валерианович",
-      "birth_date": "31.07.1968",
-      "gender": "male",
-      "relatives": [
-        14
-      ]
-    },
-    {
-      "citizen_id": 18,
-      "town": "Токма",
-      "street": "ул. Железнодорожная",
-      "building": "74",
-      "apartment": 25,
-      "name": "Новиков Емельян Евстигнеевич",
-      "birth_date": "05.07.1976",
-      "gender": "male",
-      "relatives": [
-        8,
-        12
-      ]
-    },
-    {
-      "citizen_id": 19,
-      "town": "Адлер",
-      "street": "ул. Шоссейная",
-      "building": "6",
-      "apartment": 85,
-      "name": "Наумова Кира Рудольфовна",
-      "gender": "female",
-      "birth_date": "04.01.1994",
-      "relatives": [
-        12
-      ]
-    }
-  ]
+   "citizens":[
+      {
+         "citizen_id":1,
+         "town":"Engleman",
+         "street":"Furness Warren",
+         "building":"32",
+         "apartment":29,
+         "name":"Tretyakov Bogdan Kharlampovich",
+         "birth_date":"02.05.1949",
+         "gender":"male",
+         "relatives":[
+
+         ]
+      },
+      {
+         "citizen_id":2,
+         "town":"Barkcroft",
+         "street":"Pickering Acre",
+         "building":"95",
+         "apartment":14,
+         "name":"Vorontsova Ninel Alekseevna",
+         "birth_date":"16.08.1969",
+         "gender":"female",
+         "relatives":[
+            7
+         ]
+      },
+      {
+         "citizen_id":3,
+         "town":"Ingerhead",
+         "street":"Rye Buildings",
+         "building":"76",
+         "apartment":55,
+         "name":"Davydova Iya Semyonovna",
+         "birth_date":"29.09.1960",
+         "gender":"female",
+         "relatives":[
+
+         ]
+      },
+      {
+         "citizen_id":4,
+         "town":"Uperluitsup",
+         "street":"Highlands Gardens",
+         "building":"4",
+         "apartment":12,
+         "name":"Kalashnikova Marina Borisovna",
+         "birth_date":"05.12.1971",
+         "gender":"female",
+         "relatives":[
+            12
+         ]
+      },
+      {
+         "citizen_id":5,
+         "town":"Narsarguit",
+         "street":"Robins Hills",
+         "building":"30",
+         "apartment":65,
+         "name":"Nekrasova Natalya Stanislavovna",
+         "birth_date":"22.03.1946",
+         "gender":"female",
+         "relatives":[
+            16
+         ]
+      },
+      {
+         "citizen_id":6,
+         "town":"Sarfanntalik",
+         "street":"Brookvale Avenue South",
+         "building":"72",
+         "apartment":26,
+         "name":"Ershova Fevronia Timurovna",
+         "birth_date":"08.06.1981",
+         "gender":"female",
+         "relatives":[
+            10,
+            11,
+            14
+         ]
+      },
+      {
+         "citizen_id":7,
+         "town":"Chimalchula",
+         "street":"Bury Downs",
+         "building":"29",
+         "apartment":58,
+         "name":"Kudryavtsev Boyan Terentievich",
+         "birth_date":"18.12.2011",
+         "gender":"male",
+         "relatives":[
+            2
+         ]
+      },
+      {
+         "citizen_id":8,
+         "town":"Naulapa",
+         "street":"Cooks Fields",
+         "building":"1",
+         "apartment":98,
+         "name":"Sobolev Yaroslav Evseevich",
+         "birth_date":"25.12.1950",
+         "gender":"male",
+         "relatives":[
+            10,
+            11,
+            18
+         ]
+      },
+      {
+         "citizen_id":9,
+         "town":"Zamolapa",
+         "street":"Rosemount Side",
+         "building":"90",
+         "apartment":55,
+         "name":"Kharitonova Margarita Egorovna",
+         "birth_date":"23.04.2002",
+         "gender":"female",
+         "relatives":[
+
+         ]
+      },
+      {
+         "citizen_id":10,
+         "town":"Derster",
+         "street":"Nether South",
+         "building":"36",
+         "apartment":20,
+         "name":"Kryukov Parfen Eliseevich",
+         "birth_date":"03.12.1974",
+         "gender":"male",
+         "relatives":[
+            6,
+            8
+         ]
+      },
+      {
+         "citizen_id":11,
+         "town":"Tislow",
+         "street":"Kingston Knoll",
+         "building":"98",
+         "apartment":44,
+         "name":"Smirnova Nonna Petrovna",
+         "birth_date":"27.09.2006",
+         "gender":"female",
+         "relatives":[
+            6,
+            8
+         ]
+      },
+      {
+         "citizen_id":12,
+         "town":"Barringby",
+         "street":"Blacksmiths Esplanade",
+         "building":"12",
+         "apartment":49,
+         "name":"Biryukova Larisa Vasilievna",
+         "birth_date":"01.07.1989",
+         "gender":"female",
+         "relatives":[
+            4,
+            18,
+            19
+         ]
+      },
+      {
+         "citizen_id":13,
+         "town":"Greenberg",
+         "street":"Oakley Parc",
+         "building":"46",
+         "apartment":109,
+         "name":"Smirnova Evpraksia Andreevna",
+         "birth_date":"04.01.1988",
+         "gender":"female",
+         "relatives":[
+
+         ]
+      },
+      {
+         "citizen_id":14,
+         "town":"Milsano",
+         "street":"Katescroft",
+         "building":"78",
+         "apartment":34,
+         "name":"Gordeev Christopher Andreevich",
+         "birth_date":"01.10.2004",
+         "gender":"male",
+         "relatives":[
+            6,
+            17
+         ]
+      },
+      {
+         "citizen_id":15,
+         "town":"Bonajour",
+         "street":"Sunderland Piece",
+         "building":"94",
+         "apartment":59,
+         "name":"Noskova Fevroniya Borisovna",
+         "birth_date":"04.06.2010",
+         "gender":"female",
+         "relatives":[
+
+         ]
+      },
+      {
+         "citizen_id":16,
+         "town":"Oqaatmiut",
+         "street":"Shakespeare Pastures",
+         "building":"49",
+         "apartment":11,
+         "name":"Kulakova Vasilisa Georgievna",
+         "birth_date":"06.06.1989",
+         "gender":"female",
+         "relatives":[
+            5
+         ]
+      },
+      {
+         "citizen_id":17,
+         "town":"Ikerasuaq",
+         "street":"Birchwood Town",
+         "building":"81",
+         "apartment":80,
+         "name":"Sukhanov Modest Valerianovich",
+         "birth_date":"31.07.1968",
+         "gender":"male",
+         "relatives":[
+            14
+         ]
+      },
+      {
+         "citizen_id":18,
+         "town":"Sarrasak",
+         "street":"Ennerdale Dell",
+         "building":"74",
+         "apartment":25,
+         "name":"Novikov Emelyan Evstigneevich",
+         "birth_date":"05.07.1976",
+         "gender":"male",
+         "relatives":[
+            8,
+            12
+         ]
+      },
+      {
+         "citizen_id":19,
+         "town":"Cuerloapan",
+         "street":"Berwick Lawns",
+         "building":"6",
+         "apartment":85,
+         "name":"Naumova Kira Rudolfovna",
+         "gender":"female",
+         "birth_date":"04.01.1994",
+         "relatives":[
+            12
+         ]
+      }
+   ]
 }
